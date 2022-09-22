@@ -1,0 +1,94 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: blue;
+}
+
+header {
+    background-color: lightgray;
+    color: teal;
+}
+
+nav h1 {
+    margin: 10px;
+    margin-left: auto%;
+    padding: 10px;
+    background-color: teal;
+    color: darkgray;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navlink {
+  padding: 5px;
+  font-size: large;
+  border-bottom: 7px solid black;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+
+}
+
+.bannerContainer {
+  position: relative;
+  text-align: center;
+}
+
+.banner {
+  max-height: 100px;
+  background-size:contain;
+}
+
+.bannertext {
+  position:absolute;
+  bottom: 15px;
+  right: 30px;
+  color: white;
+  font-size: large;
+}
+
+
+.topics {
+  border-right: 10px solid black;
+  margin-top: 5px;;
+  padding-right: 5px;
+  padding-bottom: 100px;
+}
+
+main {
+  display: flex;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+    /* Change the header background */
+    header {
+      background: #772014;
+    }
+    /* Change the navbar and footer background */
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+  }
+  
+
