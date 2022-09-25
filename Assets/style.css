@@ -135,6 +135,7 @@ span a {
   background-color: var(--headingbackground);
   color: var(--headingcolor);
 }
+
 .calculator{
   background-image: url(./calculator.webp);
   width: 50%;
@@ -173,30 +174,26 @@ right: 14px;
 }
 
 @media screen and (max-width: 768px) {
-    /* Use flex-direction to stack the navbar, sidebar, and body */
-    
     
     main,
     nav {
+      flex-direction: rows;
+    }
+
+    .flex {
       flex-direction: column;
     }
-    /* Make the sidebar stack below the body */
-
-    /* Change the header background */
-   
-
     .topicsHeadings {
       text-align: left;
+      border-bottom: 2px solid black;
+      border-right: none;
+      float: left;
     }
     .topics {
-      float: left;
-      border-right: 2px solid blue;
-
-      
+      border-right: none;
     }
-    /* Change the navbar and footer background */
-    nav,
-    footer {
-   
+    #contactalign {
+      position: relative;
+      right: 2px;
     }
   }
