@@ -8,6 +8,8 @@ See below for the screenshot of the product.
 
 ![portfolio demo](./Assets/screenshotREADME.jpg)
 
+URL: https://craymorgana.github.io/horiseonSEOChallenge/
+
 ## Installation
 
 N/A
