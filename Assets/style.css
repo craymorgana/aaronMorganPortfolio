@@ -91,7 +91,7 @@ margin-right: 11px;
   text-align: right;
   padding-right: 5px;
 }
-
+/* 
 .imageTopics {
   flex: 1 1 100px;
   margin-top: 10px;
@@ -99,20 +99,79 @@ margin-right: 11px;
 }
 
 .firstimage {
+  padding-top: 20px;
 height:25%;
+background-size: contain;
+} */
+
+.imageContainer>*{
+  flex-direction: row;
+  width: 70vw;
+  flex-wrap: wrap;
+  border: 2px solid black;
 }
 
-.imageflex {
-display: flex;
-flex: 1 1 auto;
-flex-direction: row;
-flex-wrap: wrap;
-display: block;
-height: auto;
-margin-right: 10px;
+.imageflex>*{
+  flex: 1 1 auto;
 }
 
 
+/* .imagetext1 {
+  position:absolute;
+  top: 30%;
+  color: black;
+  font-size: large;
+  background-color: white;
+}
+
+.imagetext2 {
+  position:relative;
+  right: 10px;
+  bottom: 10px;
+  color: black;
+  font-size: large;
+  background-color: white;
+} */
+
+
+
+.horiseon {
+  background-image: url(./horiseonSEO.jpg);
+width: 100%;
+height: 200px;
+background-size: cover;
+}
+
+span {
+  height: 25%;
+  position: relative;
+  top: 120px;
+  background-color: white;
+}
+.calculator{
+  background-image: url(./calculator.webp);
+  width: 50%;
+  height: 200px;
+  background-size: cover;
+}
+.pastel{
+  background-image: url(./pastel.jpg);
+  width: 50%;
+  height: 200px;
+  background-size: cover;
+}
+.led {
+  background-image: url(./ledWall.jpg);
+  width: 50%;
+  height: 200px
+  background-size: cover;
+}
+.surf {
+  background-image: url(./surf.jpg);
+  width: 50%;
+  height: 200px;
+  background-size: cover;
+}
 
 
 
@@ -145,5 +204,3 @@ margin-right: 10px;
       background-color: #bb8588;
     }
   }
-  
-

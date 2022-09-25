@@ -18,51 +18,76 @@
 <body>
 
 
+<!-- Nav Bar and Header -->
 <header>
     <nav class="navbar">
         <h1>Aaron Morgan</h1>
     
     <ul>
-        <li><a href="#" class="navlink">About Me</a></li>
-        <li><a href="#" class="navlink">Work</a></li>
+        <li><a href="#aboutme" class="navlink">About Me</a></li>
+        <li><a href="#work" class="navlink">Work</a></li>
         <li><a href="#" class="navlink">Contact Me</a></li>
         <li><a href="#" class="navlink">Resume</a></li>
     </ul>    
 </nav>
-
-
 </header>
 
+
+<!-- Banner -->
 <div class="bannerContainer">
-<img src="./Assets/banner-min.jpg" class="banner" width="100%">
-<div class="bannertext">My Portfolio</div>
+    <img src="./Assets/banner-min.jpg" class="banner" width="100%">
+    <div class="bannertext">My Portfolio</div>
 </div>
 
 
+<!-- Main Content -->
 <main>
     <div class="flex">
     <section class="topics">
-        <h1 class="topicsHeadings">About Me</h1>
+        <h3 class="topicsHeadings" id="aboutme">About Me</h3>
     </section>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ligula nunc, mattis eget tincidunt non, tincidunt in lorem. Praesent pellentesque nulla vitae arcu vehicula, ut maximus ante semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam et elit vel erat condimentum fermentum. Praesent faucibus enim sed sem consequat, id feugiat metus sodales. Praesent tempor lacus et laoreet ultricies. Aliquam aliquet venenatis ligula in placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer at dolor consectetur, iaculis odio id, consectetur eros. Fusce hendrerit, leo in bibendum fringilla, neque neque dignissim lectus, at iaculis diam justo quis turpis. Nam sodales mollis nibh, nec luctus sem dapibus scelerisque. Suspendisse rhoncus pulvinar nunc, non sodales augue iaculis sit amet.
 
     <br><br>Fusce et pretium nunc. Morbi ac congue eros. In vestibulum ante nunc, sit amet congue turpis sollicitudin vitae. Donec mollis tempor metus at pharetra. Donec dapibus aliquam libero eget laoreet. Cras molestie dictum nisl et molestie. Quisque vitae lorem urna. Nulla volutpat, sapien vel molestie ornare, purus ipsum egestas nulla, sed accumsan augue est ac justo. Curabitur blandit eleifend massa, et tempus turpis bibendum in. Quisque eget nisl libero. Proin egestas enim id quam finibus sollicitudin.</p>
     </div>
 
-    <div class="flex">
+    <!-- <div class="flex">
         <section class="topics" id="borderalign">
-            <h1 class="topicsHeadings">Work</h1>
+            <h3 class="topicsHeadings" id="work">Work</h3>
         </section>
         
-        
+        <div class="imageContainer">
         <div class="imageflex">
         <img src="./Assets/horiseonSEO.jpg" class="firstimage" width="90%">
-        
+        <div class="imagetext1">horiseonSEO</div>
+            
+
             <section class="imagerows">
                 <img src="./Assets/calculator.webp" width="45%">
+                <div class="imagetext2">Calculator</div>
                 <img src="./Assets/ledWall.jpg" width="45%">
+                <div class="imagetext3">LED Wall</div>
                 <img src="./Assets/pastel.jpg"width="45%">
+                <div class="imagetext4">Pastel Puzzles</div>
+                <img src="./Assets/surf.jpg" width="45%">
+                <div class="imagetext5">Surf Report</div>
             </section>
+        </div>
+    </div> -->
+
+    <div class="flex">
+        <section class="topics" id="borderalign">
+            <h3 class="topicsHeadings" id="work">Work</h3>
+        </section>
+
+        <div class="imageContainer">
+            <div class="imageflex">
+                <div class="horiseon"><span>horiseonSEO<br>HTML/CSS</span></div>
+                <div class="calculator">calculator</div>
+                <div class="pastel">pastel</div>
+                <div class="led">led Wall</div>
+                <div class="surf">surf report</div>
+            </div>
         </div>
     </div>
 </main>
